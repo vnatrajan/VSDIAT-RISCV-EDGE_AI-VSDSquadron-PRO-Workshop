@@ -1,0 +1,41 @@
+# Freedom Studio / Freedom E SDK build outputs
+Freedom_Studio_Projects/*/bsp/build/
+Freedom_Studio_Projects/*/bsp/install/
+Freedom_Studio_Projects/*/src/debug/
+Freedom_Studio_Projects/*/src/release/
+Freedom_Studio_Projects/*/.tracecompass/
+openocd.log
+
+# Compiled objects, libraries and binaries
+*.o
+*.obj
+*.a
+*.d
+*.elf
+*.hex
+*.bin
+*.lst
+*.dll
+*.so
+*.exe
+a.out
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+venv/
+.venv/
+bitnetenv/
+
+# PlatformIO
+.pio/
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Claude Code
+.claude/
+CLAUDE.md
